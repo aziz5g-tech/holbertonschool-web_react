@@ -3,6 +3,8 @@
 import { RowElement, RowID } from './interface';
 import * as CRUD from './crud';
 
+export { RowElement, RowID };
+
 const row: RowElement = {
   firstName: 'Guillaume',
   lastName: 'Salva',

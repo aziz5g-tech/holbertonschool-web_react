@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
     "module": "es6",
-    "strict": true,
-    "esModuleInterop": true,
+    "target": "es5",
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "skipLibCheck": true,
-    "lib": ["dom", "es2015"],
-    "outDir": "dist"
-  },
-  "include": ["js/**/*.ts", "js/**/*.d.ts", "js/**/*.js"]
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2020", "DOM"],
+    "strict": true
+  }
 }
