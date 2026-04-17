@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "strict": false,
+    "outDir": "dist",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "declaration": true
+  },
+  "include": ["js/**/*.ts"]
+}
